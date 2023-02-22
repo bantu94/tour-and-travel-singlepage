@@ -18,7 +18,7 @@ const PostsCard = ({ tour }) => {
       <Card>
         <div className="tour__img">
           <img src={photo} alt="post_image" />
-          { featured && <span>Featured Post</span> }
+          { featured && <span>Featured</span> }
         </div>
 
         
